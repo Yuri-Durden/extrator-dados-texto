@@ -1,6 +1,6 @@
 # Extrator de Dados de Texto em Python
 
-Este é um simples extrator de e-mails e URLs a partir de um texto fornecido pelo usuário. Este projeto foi desenvolvido durante os meus estudos de Python e regex.
+Este é um simples extrator de e-mails e URLs que permite a extração a partir de um texto fornecido pelo usuário. Este projeto foi desenvolvido durante meus estudos de Python e regex.
 
 ## Pré-requisitos
 
