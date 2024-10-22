@@ -10,13 +10,13 @@ def extrair_dados(texto):
     return emails, urls
 
 def salvar_resultados(emails, urls):
-    with open('resultados.txt', 'w') as f:
-        f.write("E-mails encontrados:\n")
+    with open('resultados.txt', 'w') as arquivo:
+        arquivo.write("E-mails encontrados:\n")
         for email in emails:
-            f.write(f"{email}\n")
+            arquivo.write(f"{email}\n")
         f.write("\nURLs encontradas:\n")
         for url in urls:
-            f.write(f"{url}\n")
+            arquivo.write(f"{url}\n")
 
 if __name__ == "__main__":
     texto = input("Insira o texto a ser analisado: ")
